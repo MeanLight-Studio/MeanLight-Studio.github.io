@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"@font-face {\n  font-family: 'Chalk';\n  src:  url('/assets/fonts/ChalkPaint.ttf');\n}\n\n.current {\n    color: green;\n}\n.parallax {\n    /* The image used */\n    min-height: 500px;\n    /* Create the parallax scrolling effect */\n    background-attachment: fixed;\n   \n    background-repeat: no-repeat;\n    background-size: cover;\n    border: 0;\n    margin: 0;\n    padding: 0;\n    border: 0;\n\n}\n\nbody, html {\n    border: 0;\n    margin: 0;\n    padding: 0;\n    border: 0;\n    height: 100%;\n    width: 100%;\n}\n\n.centered-section {\n    margin: 0;\n    position: relative;\n    top: 50%;\n    text-align: center;\n}\n\n.centered-section-opaque {\n    background-color: black;\n    margin: 0;\n    position: absolute;\n    top: 50%;\n    text-align: center;\n}\n\n.home-section {\n    height: 250px;\n\n}\n\n.center-container{\n    text-align: center;\n    width: 100%;\n    position: absolute;\n    top: 30%;\n\n}\n\n.transparent-bg {\n    background-color: #000000AF;\n    color: #F4E2B5;\n /*   text-align: center;\n    width: 100%;\n    position: absolute;\n    top: 30%;\n */\n    box-shadow: 0px 0px 20px black;\n    text-shadow: 5px 5px 12px black;\n    border-radious: 20px;\n}\n\n.hover-shadow{\n    transition: box-shadow .3s;\n    border-radius:20px;\n    transition: transform .2s;\n}\n\n.hover-shadow:hover{\n    box-shadow: 0 0 11px rgba(33,33,33,1.0);\n    transform: scale(1.05);\n}\n\n\n"
+	],
+	"names": [],
+	"mappings": "ACAA,UAAU,GACR,WAAW,EAAE,OAAO,EACpB,GAAG,EAAG,mCAAmC;;AAG3C,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf;;AACD,AAAA,SAAS,CAAC,EACN,oBAAoB,CACpB,UAAU,EAAE,KAAK,EACjB,0CAA0C,CAC1C,qBAAqB,EAAE,KAAK,EAE5B,iBAAiB,EAAE,SAAS,EAC5B,eAAe,EAAE,KAAK,EACtB,MAAM,EAAE,CAAC,EACT,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,EACV,MAAM,EAAE,CAAC,GAEZ;;AAED,AAAA,IAAI,EAAE,IAAI,CAAC,EACP,MAAM,EAAE,CAAC,EACT,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,EACV,MAAM,EAAE,CAAC,EACT,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,IAAI,GACd;;AAED,AAAA,iBAAiB,CAAC,EACd,MAAM,EAAE,CAAC,EACT,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAE,GAAG,EACR,UAAU,EAAE,MAAM,GACrB;;AAED,AAAA,wBAAwB,CAAC,EACrB,gBAAgB,EAAE,KAAK,EACvB,MAAM,EAAE,CAAC,EACT,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAE,GAAG,EACR,UAAU,EAAE,MAAM,GACrB;;AAED,AAAA,aAAa,CAAC,EACV,MAAM,EAAE,KAAK,GAEhB;;AAED,AAAA,iBAAiB,CAAA,EACb,UAAU,EAAE,MAAM,EAClB,KAAK,EAAE,IAAI,EACX,QAAQ,EAAE,QAAQ,EAClB,GAAG,EAAE,GAAG,GAEX;;AAED,AAAA,eAAe,CAAC,EACZ,gBAAgB,EAAE,SAAS,EAC3B,KAAK,EAAE,OAAO,EACjB,sEAIE,CACC,UAAU,EAAE,kBAAkB,EAC9B,WAAW,EAAE,kBAAkB,EAC/B,cAAc,EAAE,IAAI,GACvB;;AAED,AAAA,aAAa,CAAA,EACT,UAAU,EAAE,cAAc,EAC1B,aAAa,EAAC,IAAI,EAClB,UAAU,EAAE,aAAa,GAC5B;;AAED,AAAA,aAAa,CAAC,KAAK,CAAA,EACf,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,OAAkB,EACvC,SAAS,EAAE,WAAW,GACzB"
+}

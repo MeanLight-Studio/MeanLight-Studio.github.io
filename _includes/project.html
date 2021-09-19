@@ -1,0 +1,11 @@
+<div class="w3-third w3-margin-bottom transparent-bg">
+    {% assign project=site.data.projects[include.project] %}
+    <a href="{{ project.link }}" target="_blank">
+        <img src="{{ project.image }}" alt="{{ project.name }}" style="width:100%" class="hover-shadow">
+    </a>
+    <div class="w3-container">
+        <p><b>{{ project.name }}</b></p>
+        <p class="w3-opacity">{{ project.subtitle }}</p>
+        <p>{{ project.description }}</p>
+    </div>
+</div>

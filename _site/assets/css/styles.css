@@ -14,10 +14,12 @@ body, html { border: 0; margin: 0; padding: 0; border: 0; height: 100%; width: 1
 
 .center-container { text-align: center; width: 100%; position: absolute; top: 30%; }
 
-.transparent-bg { background-color: #000000AF; color: #F4E2B5; /*   text-align: center; width: 100%; position: absolute; top: 30%; */ box-shadow: 0px 0px 20px black; text-shadow: 5px 5px 12px black; border-radious: 20px; }
+.transparent-bg { background-color: #000000AF; color: #F4E2B5; box-shadow: 0px 0px 20px black; text-shadow: 5px 5px 12px black; border-radious: 20px; }
+
+.darkgray-bg { background-color: #0F0F0FFF; color: #F4E2B5; box-shadow: 0px 0px 20px black; text-shadow: 5px 5px 12px black; border-radious: 20px; margin: 5px; padding: 5px; }
 
 .hover-shadow { transition: box-shadow .3s; border-radius: 20px; transition: transform .2s; }
 
-.hover-shadow:hover { box-shadow: 0 0 11px #212121; transform: scale(1.05); }
+.hover-shadow:hover { box-shadow: 0 0 11px black; transform: scale(1.05); }
 
 /*# sourceMappingURL=styles.css.map */

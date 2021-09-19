@@ -1,0 +1,29 @@
+azagaya:
+  name: Azagaya
+  link: https://twitter.com/AzagayaVj
+  image: /assets/images/azagaya.png
+  role: Programmer
+
+damian:
+  name: Damián
+  link: https://dpotenmusic.com/
+  image: /assets/images/damian.png
+  role: Musician
+
+webox:
+  name: Webox
+  link: https://twitter.com/Webocs
+  image: /assets/images/maxi.png
+  role: Game Designer, Programmer
+
+andy:
+  name: Andy
+  link: https://twitter.com/lagartojesus77
+  image: /assets/images/andy.png
+  role: Artist
+
+leandro:
+  name: Leandro
+  link: https://twitter.com/FreddyTurbina22
+  image: /assets/images/leandro.png
+  role: Programmer
